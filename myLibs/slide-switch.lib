@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Slide-Switch
+#
+DEF Slide-Switch U 0 40 Y Y 1 F N
+F0 "U" -200 50 60 H V C CNN
+F1 "Slide-Switch" -150 -50 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -450 -150 150 100 0 1 0 f
+S -250 100 -200 200 0 1 0 F
+X ~ 1 -250 -300 200 U 50 50 1 1 U
+X ~ 2 -150 -300 200 U 50 50 1 1 U
+X ~ 3 -50 -300 200 U 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library

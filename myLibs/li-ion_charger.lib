@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Li-Ion_Charger
+#
+DEF Li-Ion_Charger U 0 40 Y Y 1 F N
+F0 "U" 50 150 60 H V C CNN
+F1 "Li-Ion_Charger" 50 350 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -300 0 400 450 0 1 0 f
+X IN+ 1 -450 200 200 R 50 50 1 1 I
+X IN- 2 -450 100 200 R 50 50 1 1 I
+X BAT- 3 550 100 200 L 50 50 1 1 I
+X BAT+ 4 550 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

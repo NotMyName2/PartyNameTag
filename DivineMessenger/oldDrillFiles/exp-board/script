@@ -1,0 +1,41 @@
+#!/bin/bash
+
+pcb2gcode \
+--front=Divine-Messenger-F.Cu.gtl \
+--back=Divine-Messenger-B.Cu.gbl \
+--drill=Divine-Messenger.drl \
+--outline=Divine-Messenger-Edge.Cuts.gbr.gm1 \
+--output-dir=gcode\
+--dpi=1000 \
+--metric=true \
+--metricoutput=true \
+--mirror-absolute=false \
+--optimise=true \
+--tile-x=1 --tile-y=1 \
+--vectorial=false \
+--zchange=20.0000 \
+--zero-start=true \
+--zsafe=2.0000 \
+--extra-passes=3 \
+--mill-feed=450 \
+--mill-speed=24000 \
+--offset=0.1500 \
+--zwork=-0.0500 \
+--drill-feed=250 \
+--drill-side=back \
+--drill-speed=12000 \
+--milldrill=false \
+--nog81=false \
+--onedrill=false \
+--zdrill=-3.0000 \
+--bridges=0.8000 \
+--bridgesnum=4 \
+--cut-feed=200 \
+--cut-infeed=1.0000 \
+--cut-side=back \
+--cut-speed=24000 \
+--cutter-diameter=3.1750 \
+--fill-outline=true \
+--outline-width=0.2000 \
+--zbridges=-0.0500 \
+--zcut=-1.7000
